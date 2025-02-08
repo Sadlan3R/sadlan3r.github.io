@@ -1,0 +1,994 @@
+/* All CSS */
+
+html {
+	margin :0 !important;
+	padding: 0 !important;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 87.5%; /* 14px */
+	line-height: 1.5;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0px;
+   
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'DM Serif Text';
+    color: #003172;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Nunito';
+    color: #003172;
+    line-height: 1;
+    letter-spacing: 1px;
+    
+}
+
+p {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito';
+    color: #003172;
+}
+
+/* Wrapper and Container and Fullwidth*/
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrapper:before, .wrapper:after {
+    content: " ";
+    display: table;
+}
+
+.wrapper:after {
+    clear: both;
+}
+
+.container{
+
+}
+
+.container:before, .container:after {
+    content: " ";
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
+
+.fullwidth {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+}
+
+
+/* Colors & Body Splits */
+
+.bottom50 {
+    margin-bottom: 50px;
+    margin-bottom: 3.571rem;
+}
+
+.top20 {
+    margin-top: 20px;
+    margin-top: 1.4rem;
+}
+
+.top80 {
+    margin-top: 80px;
+    margin-top: 5.714rem;
+}
+
+.six {
+    width: 48.46625%;
+}
+
+.red {
+    color:#e02f2f;
+}
+
+.align-center {
+    text-align: center;
+}
+
+/* Header Homepage CSS */
+
+.header_wrapper {
+    width: 100%;
+    height: auto;
+    background: url(../header.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header_welcome {
+    padding-bottom: 100px;
+    padding-bottom: 10rem;
+    text-align: center;
+    margin: 5% auto 0 auto;
+    z-index: 99999;
+    top: 90px;
+}
+
+.header_welcome h1 {
+    font-size: 112px;
+    font-weight: 900;
+    font-family: 'DM Serif Text';
+    color: #ffffff;
+    line-height: 0.64;
+    text-shadow: 2px 2px #000000;
+}
+
+a.redbutton{
+    width: 50%;
+    max-width: 228px;
+    margin: 150px auto 50px auto;
+    letter-spacing: 1px;
+    height: auto;
+    color: #ffffff;
+    background: #e02f2f;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    padding: 0.7143rem 1.429rem 0.7143rem 1.429rem;
+    font-family: 'DM Serif Text', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    display: block;
+    float: none;
+    border-radius: 10px;
+}
+
+a.redbutton:hover {
+    scale: 1.05;
+    background-color: #BF2525;
+} 
+
+/* Header CSS */
+header .header {
+    color: #ffffff;
+    padding: 12px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+header h6 {
+    margin: 20px 0;
+    margin: 1.429rem 0;
+    padding: 0;
+    float: left;
+}
+
+header h6 a {
+    display: block;
+    width: 205px;
+    width: 14.64rem;
+    height: 83px;
+    height: 5.929rem;
+    margin-top: 10px;
+    margin-top: 0.7143rem;
+    background: url(../logo.gif) center center no-repeat;
+    background-size: contain;
+    text-indent: -9999px;
+    text-indent: -714.2rem;
+    overflow: hidden;
+}
+
+header nav {
+    float: right;
+    font-size: 16px;
+    font-size: 1rem;
+    margin-top: 8px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    margin: 0;
+    padding: 55px 0 24px 0;
+    padding: 3.929rem 0 1.714rem 0;
+    float: left;
+    margin-left: 15px;
+    margin-left: 1.5rem;
+}
+
+header nav li:first-child {
+    margin-left: 0;
+}
+
+header nav a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    padding: 0 0 7px 0;
+    padding: 0 0 0.5rem 0;
+    text-shadow: 1px 1px #000000;
+}
+
+header nav a:hover {
+    scale: 1.2;
+    font-weight: 900;
+    svg {
+        scale: 1.2;
+    }
+}
+
+/* Mobile Nav Css */
+
+.mobileheader {
+    display: none;
+}
+
+.mobilenav {
+    display: none;
+}
+
+a.mobilemenubutton {
+    display: none !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(../menu_button.png) center center no-repeat;
+}
+
+header .mobileheader nav {
+    display: none;
+    position: absolute;
+    z-index: 9999999 !important;
+    left: 0;
+    top: 8em;
+    width: 100%;
+    -webkit-box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+header .mobileheader nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mobileheader nav li {
+    float: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+.mobileheader nav li a {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000000;
+    padding: 1em 1.5em;
+}
+
+/* Body */
+
+.section {
+    margin: 70px auto;
+    max-width: 1080px;
+    height: auto;
+}
+
+.col, .cols {
+    clear: none;
+    display: inline;
+    float: left;
+    margin: 0;
+    margin-right: 3.06749%;
+    padding: 0;
+}
+
+.col.last, .cols.last {
+    margin-right: 0;
+}
+
+.navy-middle {
+    background-color: #003172;
+}
+
+.white-middle {
+    background-color: #FFFFFF;
+}
+
+.white-pattern-middle {
+    background-image: url(../white.png);
+    width: 100%;
+}
+
+.offwhite-middle {
+    background-color: #F4F6F3;
+}
+
+.ashgray-middle {
+    background-color: #BDC7BE;
+}
+
+.red-middle {
+    background-color: #e02f2f;
+}
+
+/* Cards CSS */
+
+.cards {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.cards > .product-card{
+    flex: 1;
+    min-width: 225px;
+}
+
+.cards > .about-card{
+    flex: 1;
+    min-width: 300px;
+}
+
+.cards > .contact-card{
+    flex: 1;
+    min-width: 200px;
+}
+
+.cards > .values-card{
+    flex: 1;
+    min-width: 250px;
+}
+
+.cards > .meet-card{
+    flex: 1;
+    min-width: 350px;
+}
+
+.cards > .promo-card{
+    flex: 1;
+    min-width: 350px;
+}
+
+.cards > .product-selection-card{
+    flex: 1;
+    min-width: 300px;
+}
+
+.cards a {
+    text-decoration: none;
+}
+
+
+/* About Cards */
+.about-card {
+    margin-top: auto;
+}
+
+.home_pic img{
+    align-self: flex-end;
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: -6px;
+    height: auto;
+}
+
+.about-card h1 {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'DM Serif Text';
+    color: #ffffff;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+.about-card h2 {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Nunito';
+    color: #ffffff;
+    line-height: 1;
+    letter-spacing: 1px;
+    
+}
+
+.about-card p {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito';
+    color: #ffffff;
+}
+
+/* Values Cards CSS */
+
+.values-card {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.0);
+    box-shadow: 2px 2px 2px 2px #3D3D3D;
+    border-radius: 250px ;
+    padding: 20px 28px 20px 28px;
+}
+
+/* Product Cards CSS */
+
+.product-card {
+    background-color: #003172;
+    box-shadow: 2px 2px 2px 2px #3D3D3D;
+    border-radius: 10px;
+    padding: 20px 28px 40px 28px;
+}
+
+.product-card h1 {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'DM Serif Text';
+    color: #ffffff;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.product-card h2 {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'DM Serif Text';
+    color: #ffffff;
+    line-height: 1;
+    letter-spacing: 1px;
+    
+}
+
+.product-card p {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Nunito;
+    color: #ffffff;
+}
+
+.product-card a {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Nunito;
+    color: #ffffff;
+}
+
+.product-card a:hover {
+    font-size: 16px;
+    font-weight: 900;
+    font-family: Nunito;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.product-card:hover {
+    scale: 1.002;
+}
+
+.product-card a{
+    text-decoration: none;
+}
+
+/* Footer Contact */
+
+.footer {
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+}
+
+.footer ul {
+    margin: 0.75em 0;
+    padding: 0 0.75em;
+    list-style: none;
+    line-height: 12px;
+    line-height: 0.8571rem;
+}
+
+.footer li:before {
+    content: "";
+    border-color: transparent #fff;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.75em;
+    position: relative;
+    color: #FFFFFF;
+}
+
+.footer li a {
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none !important;
+}
+
+.footer li:hover {
+    scale: 1.1;
+    font-weight: 900;
+}
+
+.footer svg:hover {
+    scale: 1.2;
+}
+
+.contact-card h1 {
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'DM Serif Text';
+    color: #ffffff;
+    line-height: 1;
+    letter-spacing: 1px;
+}
+
+.contact-card p {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Nunito';
+    color: #ffffff;
+}
+
+/* About Page CSS */
+
+.about_wrapper {
+    width: 100%;
+    height: auto;
+    background: url(../about-header.jpg  ) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.about_text h3 {
+    color: #003172;
+    font-family: Nunito;        
+    font-size: 24px;
+}
+
+.meet_team {
+    text-align: center;
+}
+
+.meet_team h1 {
+    font-family: 'DM Serif Text';
+    font-weight: 900;
+    font-size: 72px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.img-slider {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin-top: -50px;
+}
+
+.img-slider .slide {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.img-slider .slide.active {
+    position: relative;
+    opacity: 1;
+    z-index: 1;
+    transition: opacity 0.5s ease, position 0s;
+}
+
+.img-slider .slide img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+}
+
+.img-slider .navigation {
+    z-index: 10;
+    top: 40px;
+    left: 200px;
+    position: absolute;
+    display: flex;
+    transform: translateX(-50%);
+    gap: 10px;
+}
+
+.img-slider .navigation .btn.active {
+    background: #e02f2f;
+}
+
+.img-slider .navigation .btn {
+    background: #ffffff;
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.img-slider h2 {
+    font-size: 56px;
+    color: #e02f2f;
+}
+
+.img-slider h3 {
+    font-size: 44px;
+    color: #003172;
+}
+
+.img-slider p {
+    font-size: 24px;
+    color: #000000;
+}
+
+/* Work Hero CSS */
+
+.work_hero_about {
+    width: 100%;
+    height: auto;
+    height: 39.29rem;
+    background: url(../contact_hero.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    float: left;
+}
+
+.work_hero_main h1 {
+    color: #ffffff;
+    font-family: 'DM Sarif Text', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.50);
+    text-shadow: 0 0 1.429rem rgba(0, 0, 0, 0.50);
+    font-size: 22px;
+    font-size: 1.571rem;
+    letter-spacing: 1px;
+    letter-spacing: 0.07143rem;
+}
+
+.work_hero_main p {
+    color: #ffffff;
+    font-family: "Nunito";
+    font-weight: 900;
+    font-size: 70px;
+    font-size: 5rem;
+    line-height: 80px;
+    line-height: 5.714rem;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.50);
+    text-shadow: 0 0 1.429rem rgba(0, 0, 0, 0.50);
+}
+
+/* Contact Page CSS */
+
+.contact_wrapper {
+    width: 100%;
+    height: auto;
+    background: url(../contact-header.jpg  ) no-repeat center 10% fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.hero_contact {
+    z-index: 9;
+}
+
+.hero_screenfit {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.contact_map {
+    height: 500px;
+}
+
+.fotorama {
+    min-width: 1px;
+    overflow: hidden;
+}
+
+.hero_screenfit iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.bottom_contact p{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Products CSS */
+
+.product_wrapper {
+    width: 100%;
+    height: auto;
+    background: url(../products-header.jpg  ) no-repeat center bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.welcome_text {
+    padding-bottom: 100px;
+    padding-bottom: 10rem;
+    text-align: left;
+    margin: 2% auto 0 auto;
+    z-index: 99999;
+    top: 90px;
+}
+
+.welcome_text h1 {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Nunito';
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+    margin-left: 12%;
+}
+
+.welcome_text h2 {
+    text-align: center;
+    font-size: 112px;
+    font-weight: 900;
+    font-family: 'DM Serif Text';
+    color: #ffffff;
+    line-height: 0.64;
+    text-shadow: 2px 2px #000000;
+    margin-top: 3%;
+}
+
+.products-heading {
+    text-align: center;
+    margin: 5% auto 5% auto;
+}
+
+.products-heading h2 {
+    font-size: 70px;
+    font-family: 'DM Sans Text';
+    font-weight: 900;
+}
+
+.products-heading p {
+    font-size: 20px;
+    font-family: 'Nunito';
+    font-weight: 700;
+    color: #003172;
+}
+
+.product-selection-card {
+    margin-bottom: 5%;
+}
+
+.product-selection-card img{
+    width: 100%;  
+    border-radius: 10px; 
+}
+
+.product-selection-card h3{
+    font-size: 32px; 
+    font-family: 'DM Sans Text';
+    font-weight: 900;
+    color: #e02f2f;
+}
+
+.product-selection-card p{
+    font-size: 20px; 
+    font-family: Nunito;
+    font-weight: 600;
+    color: #000000;
+}
+
+a.read-more-button {
+    width: 30%;
+    max-width: 228px;
+    letter-spacing: 1px;
+    height: auto;
+    color: #003172;
+    background: rgba(0, 0, 0, 0.0);
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    padding: 0.7143rem 1.429rem 0.7143rem 1.429rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    display: block;
+    float: none;
+    border-radius: 20px;
+    border: 1px solid #000000;
+}
+
+a.read-more-button:hover {
+    background-color: #e02f2f;
+    color: #FFFFFF;
+    border: none;
+} 
+
+/* Tobacco Curing Tunnels CSS */
+
+.products-pages {
+    text-align: left;
+    margin: 5% auto 5% auto;
+}
+
+.products-pages h2 {
+    font-size: 70px;
+    font-family: 'DM Sans Text';
+    font-weight: 900;
+}
+
+.products-pages h3 {
+    font-size: 36px;
+    font-family: 'Nunito';
+    font-weight: 800;
+    color: #003172;
+}
+
+.products-pages h4 {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Nunito';
+    font-weight: 800;
+    color: #003172;
+}
+
+.products-pages p {
+    font-size: 20px;
+    font-family: 'Nunito';
+    font-weight: 500;
+    color: #003172;
+}
+
+.products-pages li {
+    font-size: 20px;
+    color: #003172;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    padding: 0 0 7px 0;
+    padding: 0 0 0.5rem 0;
+}
+
+.features-text h3 {
+    font-size: 36px;
+    font-family: 'Nunito';
+    font-weight: 800;
+    color: #003172;
+ }
+ 
+
+ .products-pages h4 {
+    text-align: center;
+    font-weight: 900;
+    color: #003172;
+    font-size: 28px;
+    font-family: 'Nunito';
+}
+
+
+/* Colapsible CSS */
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    width: 100%;
+    background-color: #003172;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 24px;
+    font-family: 'Nunito';
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active-collapsible, .collapsible:hover {
+    background-color: #e02f2f;
+}
+
+.content.active-collapsible {
+    display:block;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    text-align: center;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #F4F6F3;
+    border-radius: 10px;
+}
+
+/*BreadCrumb*/
+ul.breadcrumb {
+    
+    padding: 10px 16px;
+    list-style: none;
+}
+  
+/* Display list items side by side */
+ul.breadcrumb li {
+   
+    display: inline;
+    font-size: 18px;
+    font-family: Nunito;
+    font-weight: 700;
+    text-shadow: 2px 2px #000000;
+
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+    ul.breadcrumb li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul.breadcrumb li:first-child {
+    margin-left: 5%;
+}
+
+/* Add a color on mouse-over */
+    ul.breadcrumb li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}

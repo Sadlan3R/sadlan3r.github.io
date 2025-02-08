@@ -1,0 +1,173 @@
+@media only screen and (min-width: 0px) and (max-width: 310px) {
+    .welcome_text h2 {
+        font-size: 52px;
+    }
+    .cards > .product-card{
+        flex: 1;
+        min-width: 150px;
+    }
+    
+    .cards > .about-card{
+        flex: 1;
+        min-width: 175px;
+    }
+    
+    .cards > .contact-card{
+        flex: 1;
+        min-width: 200px;
+    }
+
+    .product-card h1 {
+        font-size: 32px;
+    }
+
+}
+
+@media only screen and (min-width: 310px) and (max-width: 350px) {
+    .welcome_text h2 {
+        font-size: 58px;
+    }
+    .cards > .product-card{
+        flex: 1;
+        min-width: 200px;
+    }
+    
+    .cards > .about-card{
+        flex: 1;
+        min-width: 225px;
+    }
+    
+    .cards > .contact-card{
+        flex: 1;
+        min-width: 200px;
+    }
+
+    .cards > .meet-card{
+        flex: 1;
+        min-width: 200px;
+    }
+
+    .cards > .product-selection-card {
+        flex: 1;
+        min-width: 250px;
+    }
+
+    .meet_team h1 {
+        scale: 0.85;
+    }
+
+    .img-slider h2 {
+        scale: 0.85;
+    }
+    
+    .img-slider h3 {
+        scale: 0.85;
+    }
+    
+    .img-slider p {
+        scale: 0.85;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 450px) {
+    .welcome_text h2 {
+        font-size: 68px;
+    }
+
+    .cards > .meet-card{
+        flex: 1;
+        min-width: 250px;
+    }
+
+    .cards > .product-selection-card {
+        flex: 1;
+        min-width: 300px;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 500px) {
+    .welcome_text h2 {
+        font-size: 80px;
+    }
+
+    .work_hero_main p {
+        font-size: 50px;
+        font-size: 3.8rem;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 600px) {
+    .welcome_text h2 {
+        font-size: 100px;
+    }
+
+    .work_hero_main p {
+        font-size: 50px;
+        font-size: 3.8rem;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 350px) {
+    .work_hero_main h1 {
+        font-size: 16px;
+        font-size: 1rem;
+    }
+
+    .work_hero_main p {
+        font-size: 30px;
+        font-size: 2.8rem;
+    }
+
+    .cards > .values-card{
+        flex: 1;
+        min-width: 225px;
+    }
+}
+
+
+@media only screen and (min-width: 350px) and (max-width: 500px) {
+    .work_hero_main p {
+        font-size: 50px;
+        font-size: 3.8rem;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 880px) {
+
+    a.mobilemenubutton {
+        margin: 75px 10% 0 0;
+        display: block !important;
+    }
+
+    .mobileheader.active {
+        display: block;
+    }
+
+    .mobilenav.active {
+        display: block;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .icon svg {
+        fill:#000000;
+    }
+}
+
+@media only screen and (min-width: 880px) {
+    
+    .mobile {
+        display: none;
+    }
+
+    .mobileheader {
+        display: none;
+    }
+
+    .mobilenav {
+        display: none;
+    }
+}
+

@@ -1,0 +1,19 @@
+/* 
+  Referrer-Policy Header
+*/
+Referrer-Policy: strict-origin-when-cross-origin
+
+/*
+  x-Fame-Options Header
+*/
+X-Frame-Options: DENY
+
+/*
+  X-Content-Type-Options Header
+*/
+X-Content-Type-Options: nosniff
+
+/*
+  Content-Security-Policy with style-src-elem
+*/
+Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; style-src-elem 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; frame-src 'self' https://www.google.com/; object-src 'none';

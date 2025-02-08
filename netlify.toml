@@ -1,0 +1,57 @@
+[[redirects]]
+  from = "/about"
+  to = "/pages/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/contact"
+  to = "/pages/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/products"
+  to = "/pages/products.html"
+  status = 200
+
+[[redirects]]
+  from = "/products/tobacco-curing-tunnels"
+  to = "/pages/products/tobacco-curing-tunnels.html"
+  status = 200
+
+[[redirects]]
+  from = "/products/chongololos"
+  to = "/pages/products/chongololos.html"
+  status = 200
+
+[[redirects]]
+  from = "/products/sheds"
+  to = "/pages/products/sheds.html"
+  status = 200
+
+[[redirects]]
+  from = "/products/dryers"
+  to = "/pages/products/dryers.html"
+  status = 200
+
+[[redirects]]
+  from = "/products/augers"
+  to = "/pages/products/augers.html"
+  status = 200
+
+[[redirects]]
+  from = "/products/ethylene-generators"
+  to = "/pages/products/ethylene-generators.html"
+  status = 200
+
+[[redirects]]
+  from = "/products/misting-systems"
+  to = "/pages/products/misting-systems.html"
+  status = 200
+
+
+
