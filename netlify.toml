@@ -39,18 +39,8 @@
   status = 200
 
 [[redirects]]
-  from = "/products/augers"
-  to = "/pages/products/augers.html"
-  status = 200
-
-[[redirects]]
-  from = "/products/ethylene-generators"
-  to = "/pages/products/ethylene-generators.html"
-  status = 200
-
-[[redirects]]
-  from = "/products/misting-systems"
-  to = "/pages/products/misting-systems.html"
+  from = "/products/others"
+  to = "/pages/products/others.html"
   status = 200
 
 

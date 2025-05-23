@@ -543,6 +543,10 @@ header .mobileheader nav ul {
     scale: 1.2;
 }
 
+.contact-card {
+    margin-bottom: 50px;
+}
+
 .contact-card h1 {
     font-size: 36px;
     font-weight: 900;
