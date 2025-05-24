@@ -1040,7 +1040,7 @@ ul.breadcrumb li:first-child {
     width: 320px;
     min-height: 500px;
     border-radius: 25px;
-    background-color: #f8e3d3;
+    background-color: #F2F0EF;
 }
 
 .name {
@@ -1088,7 +1088,7 @@ ul.breadcrumb li:first-child {
 
 .overlay::after{
     border-radius: 0  25px 0 0;
-    background-color: #f8e3d3;
+    background-color: #F2F0EF;
 }
 .center-container{
     max-width: 1120px;
