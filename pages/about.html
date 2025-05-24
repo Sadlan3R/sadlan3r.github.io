@@ -3,6 +3,7 @@
     <head>
         <title>About Us - Roc Systems Tobacco Curing Tunnels</title>
         <link rel="website icon" type="png" href="../resources/favicon.png">
+        <link rel="stylesheet" href="../resources/css/swiper-bundle.min.css">
         <link href="../resources/css/index.css" type="text/css" rel="stylesheet">
         <link href="../resources/css/responsive.css" type="text/css" rel="stylesheet">
         <meta charset="utf-8">
@@ -144,78 +145,71 @@
                             </h1>
                         </div>
                     </div>
-
-                    <div class="img-slider bottom50">
-                        <div class="slide active">
-                            <div class="cards">
-                                <div class="meet-card">
-                                    <img src="../resources/rob.jpg" alt="CEO Image"/>   
-                                </div>
-                                <div class="meet-card">
-                                    <h2>Rob Stokes</h2>
-                                    <p>
-                                        "He who fails to plan is planning to fail."
-                                        <br>
-                                        -Winston Churchill
-                                    </p>
-                                    <h3>Director / CEO</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <div class="cards">
-                                <div class="meet-card">
-                                    <img src="../resources/louise.jpg" alt="Social Media Manager Image"/>   
-                                </div>
-                                <div class="meet-card">
-                                    <h2>Louise Stokes</h2>
-                                    <p>
-                                        "In a world where you can be anything, be kind."
-                                        <br>
-                                        -Unknown
-                                    </p>
-                                    <h3>Director / Social Media Manager</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <div class="cards">
-                                <div class="meet-card">
-                                    <img src="../resources/mona.jpg" alt="Finance and Admin Manager Image"/>   
-                                </div>
-                                <div class="meet-card">
-                                    <h2>Monalisa Zhoya</h2>
-                                    <p>
-                                        "Happiness is like a fragrant flower; You cannot give it to others without it smelling on you."
-                                        <br>
-                                        -African Proverb
-                                    </p>
-                                    <h3>Finance & Admin Manager</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slide">
-                            <div class="cards">
-                                <div class="meet-card">
-                                    <img src="../resources/greatjoy.jpg" alt="Draughtsman Image"/>   
-                                </div>
-                                <div class="meet-card">
-                                    <h2>Greatjoy Mavheneke</h2>
-                                    <p>
-                                        "Life will put many red lights in front of you; but sometimes we must push on the gas and trust God."
-                                        <br>
-                                        -Kendrick Lamar
-                                    </p>
-                                    <h3>Draughtsman</h3>
+                    <div class="center-container">
+                        <div class="slide-container swiper">
+                            <div class="slide-content">
+                                <div class="card-wrapper swiper-wrapper">
+                                    <div class="card swiper-slide">
+                                        <div class="image-content">
+                                            <span class="overlay"></span>
+                                                <div class="card-image">
+                                                    <img src="../resources/rob.jpg" alt="" class="card-img">
+                                                </div>
+                                        </div>
+                                        <div class="card-content">
+                                            <h2 class=name>Rob Stokes</h2>
+                                            <p class="quote">"He who fails to plan is planning to fail."</p>
+                                            <p class="quote">-Winston Churchill</p>
+                                            <p class="position">Director / CEO</p>
+                                        </div>
+                                    </div>  
+                                    <div class="card swiper-slide">
+                                        <div class="image-content">
+                                            <span class="overlay"></span>
+                                                <div class="card-image">
+                                                    <img src="../resources/louise.jpg" alt="" class="card-img">
+                                                </div>
+                                        </div>
+                                        <div class="card-content">
+                                            <h2 class=name>Louise Stokes</h2>
+                                            <p class="quote">"In a world where you can be anything, be kind."</p>
+                                            <p class="quote">-Unknown</p>
+                                            <p class="position">Director / Social Media Manager</p>
+                                        </div>
+                                    </div>   
+                                    <div class="card swiper-slide">
+                                        <div class="image-content">
+                                            <span class="overlay"></span>
+                                                <div class="card-image">
+                                                    <img src="../resources/mona.jpg" alt="" class="card-img">
+                                                </div>
+                                        </div>
+                                        <div class="card-content">
+                                            <h2 class=name>Monalisa Zhoya</h2>
+                                            <p class="quote">"Happiness is like a fragrant flower; You cannot give it to others without it smelling on you."</p>
+                                            <p class="quote">-African Proverb</p>
+                                            <p class="position">Finance & Admin Manager</p>
+                                        </div>
+                                    </div>   
+                                    <div class="card swiper-slide">
+                                        <div class="image-content">
+                                            <span class="overlay"></span>
+                                                <div class="card-image">
+                                                    <img src="../resources/greatjoy.jpg" alt="" class="card-img">
+                                                </div>
+                                        </div>
+                                        <div class="card-content">
+                                            <h2 class=name>Greatjoy Mavheneke</h2>
+                                            <p class="quote">"Life will put many red lights in front of you; but sometimes we must push on the gas and trust God."</p>
+                                            <p class="quote">-Kendrick Lamar</p>
+                                            <p class="position">Draughtsman</p>
+                                        </div>
+                                    </div>                                                                   
                                 </div>
                             </div>
-                        </div>
-                        
-                        <div class="navigation">
-                            <div class="btn active"></div>
-                            <div class="btn"></div>
-                            <div class="btn"></div>
-                            <div class="btn"></div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
                         </div>
                     </div>
                 </div>
@@ -302,6 +296,7 @@
                 </div>
             </div>
         </div>
+        <script src="../resources/script/swiper-bundle.min.js"></script>
         <script src="../resources/script/index.js"></script>
     </body>
 </html>

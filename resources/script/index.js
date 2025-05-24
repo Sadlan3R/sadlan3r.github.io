@@ -19,31 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     window.addEventListener('resize', checkWidth);
 
-    var slides = document.querySelectorAll('.slide');
-    var btns = document.querySelectorAll('.btn');
-    let currentSlide = 1;
-
-    var manualNav = function(manual) {
-        slides.forEach((slide) => {
-            slide.classList.remove('active');
-
-            btns.forEach((btn) => {
-                btn.classList.remove('active');
-            })
-        })
-
-        slides[manual].classList.add('active');
-        btns[manual].classList.add('active');
-    }
-
-    btns.forEach((btn, i) => {
-        btn.addEventListener('click', () => {
-            manualNav(i);
-            currentSlide = i;
-        })
-    })
 })
-
 
 var coll = document.getElementsByClassName("collapsible");
 
@@ -58,3 +34,36 @@ for (var i = 0; i < coll.length; i++) {
         }
     });
 }
+
+var swiper = new Swiper(".slide-content", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      loop: true,
+      centerSlide: true,
+      fade: true,
+      grabCursor: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+
+        },
+        720: {
+          slidesPerView: 2,
+
+        },
+        1120: {
+          slidesPerView: 3,
+ 
+        },
+      },
+});
